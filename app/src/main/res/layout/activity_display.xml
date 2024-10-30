@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/message_icon"
+        android:src="@drawable/baseline_mark_email_read_24" />
+
+    <EditText
+        android:id="@+id/yourEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Email"
+        android:background="@drawable/edittext_border"
+        android:enabled="false"
+        android:hint="From: "
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/recipientEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_border"
+        android:enabled="false"
+        android:hint="To:"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_border"
+        android:enabled="false"
+        android:gravity="top"
+        android:hint="message"
+        android:inputType="textMultiLine"
+        android:maxLength="250"
+        android:minHeight="120dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Clear" />
+</LinearLayout>

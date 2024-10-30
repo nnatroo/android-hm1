@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">homework-27-oct</string>
+    <string name="todo">TODO</string>
+    <string name="your_email">Your Email</string>
+    <string name="recipient_s_email">Recipient\'s Email</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="message_icon">Message Icon</string>
+    <string name="send_message">Send Message</string>
+</resources>
